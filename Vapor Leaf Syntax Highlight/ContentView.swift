@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 16) {
+            Text("leaf File Type Supported")
+                .font(.title)
+                .padding()
+
+            Text("XCode now supports .leaf files. You can close this app.")
+
+            Button("Close App") {
+                NSApp.terminate(self)
+            }
         }
-        .padding()
+        .frame(minWidth: 0, minHeight: 0)
     }
 }
 
