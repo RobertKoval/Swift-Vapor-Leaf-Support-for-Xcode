@@ -10,3 +10,7 @@ To use this application:
 2. **Restart Xcode**: After running the app, fully close and restart Xcode.
 
 Once these steps are completed, Xcode will properly highlight `.leaf` file syntax as HTML, improving readability and coding efficiency.
+
+
+## Known issue
+1. You should restart XCode after creating a new `.leaf` file in order to have syntax highlighting.
